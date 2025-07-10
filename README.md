@@ -17,7 +17,6 @@
 🔗 Integrated social media links to connect with users on multiple platforms.
 
 ## 📸 Screenshots
----
 
 - **Home Page with dark mode**
 <img width="1901" height="925" alt="Screenshot 2025-07-10 161420" src="https://github.com/user-attachments/assets/eb218080-07fc-4397-967d-4908a9304420" />
