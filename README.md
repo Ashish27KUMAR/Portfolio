@@ -4,7 +4,7 @@
 
 ---
  
-Key Features:
+## 🔑 Key Features:
 
 📱 Fully responsive layout for all devices.
 
@@ -25,7 +25,7 @@ Key Features:
 
 ---
 
-Tech Stack:
+## ⚙️ Tech Stack:
 
 HTML – for structure
 
