@@ -1,7 +1,9 @@
-💼 Personal Portfolio Website
-Description:
-A fully responsive and modern personal portfolio website showcasing sections like Home, About Me, My Progress, Skills, Projects, and Contact Me. The design includes smooth transitions, interactive elements, and a dark mode toggle to enhance user experience.
+# 💼 Personal Portfolio Website
 
+**Description:** A fully responsive and modern personal portfolio website showcasing sections like Home, About Me, My Progress, Skills, Projects, and Contact Me. The design includes smooth transitions, interactive elements, and a dark mode toggle to enhance user experience.
+
+---
+ 
 Key Features:
 
 📱 Fully responsive layout for all devices.
