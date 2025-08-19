@@ -1021,12 +1021,14 @@ a {
   grid-template-columns: repeat(1, 1fr);
   gap: 1.5rem;
   margin-bottom: 4rem;
+  padding: 0 1rem; /* ✅ Horizontal padding for small screens */
 }
 
 /* Responsive Grid */
 @media (min-width: 768px) {
   .skill-grid {
     grid-template-columns: repeat(2, 1fr);
+    padding: 0; /* ✅ Remove padding for medium screens and up */
   }
 }
 
@@ -1092,10 +1094,18 @@ a {
   background: linear-gradient(135deg, #a52aa3, #6e1540);
 }
 
+/* Footer Note */
 .footer-note {
   text-align: center;
   color: #9ca3af; /* text-gray-400 equivalent */
   margin-top: 1rem;
+  padding: 0 1rem; /* ✅ Add horizontal padding for small screens */
+}
+
+@media (min-width: 768px) {
+  .footer-note {
+    padding: 0; /* ✅ Remove padding for medium and large screens */
+  }
 }
 
 /*-----------------------------------------------PROJECTS-----------------------------------------*/
