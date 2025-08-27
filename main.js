@@ -264,11 +264,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.getElementById("navbarToggleBtn");
   const navbarMenu = document.getElementById("collapsibleNavbar");
   const iconSpan = toggleBtn.querySelector(".navbar-toggler-icon");
+  const sectionsToBlur = document.querySelectorAll(".blur-target"); // Select all sections to blur
 
   // Toggle open/close on button click
   toggleBtn.addEventListener("click", (e) => {
     e.stopPropagation(); // Prevent immediate document click from closing it
     navbarMenu.classList.toggle("show");
+
+    // Toggle the blur effect on all sections
+    sectionsToBlur.forEach((section) => {
+      section.classList.toggle("blur-background");
+    });
 
     if (navbarMenu.classList.contains("show")) {
       iconSpan.textContent = "✖"; // Close icon
@@ -278,12 +284,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Select all menu links inside the navbar
-  const menuLinks = navbarMenu.querySelectorAll("a"); // or adjust selector to your menu items
+  const menuLinks = navbarMenu.querySelectorAll("a");
 
   menuLinks.forEach((link) => {
     link.addEventListener("click", () => {
       // Close menu
       navbarMenu.classList.remove("show");
+      // Remove the blur effect when closing
+      sectionsToBlur.forEach((section) => {
+        section.classList.remove("blur-background");
+      });
       // Reset icon to hamburger
       iconSpan.textContent = "☰";
     });
@@ -297,6 +307,10 @@ document.addEventListener("DOMContentLoaded", () => {
       !toggleBtn.contains(e.target) // not clicking the button
     ) {
       navbarMenu.classList.remove("show");
+      // Remove the blur effect when closing
+      sectionsToBlur.forEach((section) => {
+        section.classList.remove("blur-background");
+      });
       iconSpan.textContent = "☰"; // Reset to hamburger
     }
   });
