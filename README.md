@@ -33,11 +33,12 @@
   <img width="1894" height="923" alt="Screenshot 2025-08-28 020512" src="https://github.com/user-attachments/assets/d7ff386f-5e0f-463a-81d7-96f96aa22a05" />
 
 - **Responsive**
-<div style="display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
-  <img src="" alt="Image 1" width="330" />
-  <img src="" alt="Image 2" width="330" />
-  <img src="" alt="Image 3" width="330" />
-</div>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b3165545-7763-46e2-bc9f-c987285e3ced" width="330" />
+  <img src="https://github.com/user-attachments/assets/94381531-abec-461e-9265-3ef79f3e6f13" width="330" />
+  <img src="https://github.com/user-attachments/assets/ad911a00-5fb5-4894-95e1-623fcf2591fb" width="330" />
+</p>
+
 
 
 
